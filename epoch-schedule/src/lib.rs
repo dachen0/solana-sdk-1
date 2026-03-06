@@ -121,9 +121,7 @@ impl EpochSchedule {
     /// get the length of the given epoch (in slots)
     pub fn get_slots_in_epoch(&self, epoch: u64) -> u64 {
         if epoch < self.first_normal_epoch {
-            2u64.saturating_pow(
-                (epoch as u32).saturating_add(MINIMUM_SLOTS_PER_EPOCH.trailing_zeros()),
-            )
+            MINIMUM_SLOTS_PER_EPOCH
         } else {
             self.slots_per_epoch
         }
