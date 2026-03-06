@@ -101,7 +101,7 @@ impl EpochSchedule {
         assert!(slots_per_epoch >= MINIMUM_SLOTS_PER_EPOCH);
         let (first_normal_epoch, first_normal_slot) = if warmup {
             let next_power_of_two = slots_per_epoch.next_power_of_two();
-            let log2_slots_per_epoch = std::cmp::min(next_power_of_two
+            let log2_slots_per_epoch = cmp::min(next_power_of_two
                 .trailing_zeros()
                 .saturating_sub(MINIMUM_SLOTS_PER_EPOCH.trailing_zeros()), 5);
 
