@@ -104,7 +104,7 @@ impl EpochSchedule {
 
             (
                 first_normal_epoch,
-                MINIMUM_SLOTS_PER_EPOCH * 2 * first_normal_epoch,
+                MINIMUM_SLOTS_PER_EPOCH * 4 * first_normal_epoch,
             )
         } else {
             (0, 0)
@@ -121,7 +121,7 @@ impl EpochSchedule {
     /// get the length of the given epoch (in slots)
     pub fn get_slots_in_epoch(&self, epoch: u64) -> u64 {
         if epoch < self.first_normal_epoch {
-            MINIMUM_SLOTS_PER_EPOCH * 2
+            MINIMUM_SLOTS_PER_EPOCH * 4
         } else {
             self.slots_per_epoch
         }
