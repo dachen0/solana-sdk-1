@@ -221,24 +221,24 @@ sha2 = { version = "0.10.8", default-features = false }
 sha3 = "0.10.8"
 signal-hook = "0.3.17"
 siphasher = "0.3.11"
-solana-account = { path = "account", version = "4.1.0" }
-solana-account-info = { path = "account-info", version = "3.0.0" }
-solana-account-view = { path = "account-view", version = "1.0.0" }
-solana-address = { path = "address", version = "2.2.0" }
-solana-address-lookup-table-interface = { path = "address-lookup-table-interface", version = "3.0.0" }
-solana-atomic-u64 = { path = "atomic-u64", version = "3.0.0" }
-solana-big-mod-exp = { path = "big-mod-exp", version = "3.0.0" }
-solana-bincode = { path = "bincode", version = "3.0.0" }
-solana-blake3-hasher = { path = "blake3-hasher", version = "3.0.0" }
-solana-bls-signatures = { path = "bls-signatures", version = "3.0.0" }
-solana-bn254 = { path = "bn254", version = "3.0.0" }
-solana-borsh = { path = "borsh", version = "3.0.0" }
-solana-client-traits = { path = "client-traits", version = "4.0.0" }
-solana-clock = { path = "clock", version = "3.0.0" }
-solana-cluster-type = { path = "cluster-type", version = "3.0.0" }
-solana-commitment-config = { path = "commitment-config", version = "3.0.0" }
-solana-compute-budget-interface = { path = "compute-budget-interface", version = "3.0.0" }
-solana-cpi = { path = "cpi", version = "3.0.0" }
+solana-account = "4.1.0"
+solana-account-info =  "3.0.0" 
+solana-account-view = "1.0.0"
+solana-address = "2.2.0"
+solana-address-lookup-table-interface = "3.0.0"
+solana-atomic-u64 = "3.0.0"
+solana-big-mod-exp = "3.0.0"
+solana-bincode = "3.0.0" 
+solana-blake3-hasher = "3.0.0"
+solana-bls-signatures = "3.0.0"
+solana-bn254 = "3.0.0"
+solana-borsh = "3.0.0"
+solana-client-traits = "4.0.0"
+solana-clock = "3.0.0"
+solana-cluster-type = "3.0.0"
+solana-commitment-config = "3.0.0"
+solana-compute-budget-interface = "3.0.0"
+solana-cpi = "3.0.0"
 solana-curve25519 = { path = "curve25519", version = "4.0.0" }
 solana-define-syscall = { path = "define-syscall", version = "5.0.0" }
 solana-derivation-path = { path = "derivation-path", version = "3.0.0" }
